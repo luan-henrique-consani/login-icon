@@ -129,6 +129,7 @@ body{
         font-family: 'Rubik',sans-serif;
         font-size: 17px;
     }
+
     .container .content input::placeholder{
         color: rgb(218, 218, 218);
     }
@@ -161,18 +162,19 @@ body{
         font-family: 'Rubik',sans-serif;
         font-size: 18px;
     }
-    .container .content .fa-check{
-        color: rgb(17, 17, 17);
-        margin-right: 2vw;
-    }
     .container .content button:active{
         border: none;
         background-color: rgb(233, 233, 233);
         border-radius: 20px;
-        width: 28vw;
+        width: 19vw;
         height: 5vh;
         color: rgb(17, 17, 17);
         font-family: 'Rubik',sans-serif;
         font-size: 18px;
     }
+    .container .content .fa-check{
+        color: rgb(17, 17, 17);
+        margin-right: 2vw;
+    }
+
 }
