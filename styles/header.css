@@ -8,6 +8,72 @@ body{
 .mobile-menu{
     display: none;
 }
+.content{
+    background-color: #0047b5;
+    width: 100vw;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+}
+.content img{
+    width: 123px;
+    height: 123px;
+}
+.bars-btn{
+    background-color: black;
+    display: none;
+}
+nav{
+    background-color: #0047b5;
+    height: 30px;
+}
+ul{
+    margin: 0
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+}
+main{
+    display: grid;
+    place-items: center;
+    height: 75vh;
+    align-content: space-between;
+}
+.carousel{
+    width: 800px;
+    border-radius: 20px;
+    margin: 30px;
+}
+.card img{
+    width: 286px;
+    height: 286px;
+}
+.card-body{
+    display: grid;
+    place-items: center;
+    font-family: 'Rubik';
+}
+
+.prtds-vend{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 15px;
+}
+.religiosos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 15px;   
+}
 @media screen and (max-width: 767px) {
     header{
         background-color: #0047b5;
