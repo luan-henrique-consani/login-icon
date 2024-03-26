@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/560340c572.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="./../styles/header.css">
+    <title>E-commerce</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="content">
+            <img src="./../assets/channels4_profile.jpg" alt="senai logo">
+            <div class="inputs">
+                <input type="text" placeholder="Digite o que deseja..." id="procura">
+                <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="user">
+                <button class="user-btn"><i class="fa-solid fa-user"></i></button>
+                <p>minha conta</p>
+                <button class="bars-btn"><i class="fa-solid fa-bars" onclick="menuShow()"></i></button>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#" class="nav-item">Acessórios</a></li>
+                <li><a href="#" class="nav-item">Literatura Clássica</a></li>
+                <li><a href="#" class="nav-item">Fantasia</a></li>
+                <li><a href="#" class="nav-item">Independentes</a></li>
+                <li><a href="#" class="nav-item">Terror</a></li>
+                <li><a href="#" class="nav-item">Policial</a></li>
+                <li><a href="#" class="nav-item">Romance</a></li>
+                <li><a href="#" class="nav-item">Comédia</a></li>
+                <li><a href="#" class="nav-item">Religião e Espiritualidade</a></li>
+                <li><a href="#" class="nav-item">Biografias</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu">
+            <ul class="nav-list">
+                <li><a href="#" class="nav-item">Acessórios</a></li>
+                <li><a href="#" class="nav-item">Literatura Clássica</a></li>
+                <li><a href="#" class="nav-item">Fantasia</a></li>
+                <li><a href="#" class="nav-item">Independentes</a></li>
+                <li><a href="#" class="nav-item">Terror</a></li>
+                <li><a href="#" class="nav-item">Policial</a></li>
+                <li><a href="#" class="nav-item">Romance</a></li>
+                <li><a href="#" class="nav-item">Comédia</a></li>
+                <li><a href="#" class="nav-item">Religião e Espiritualidade</a></li>
+                <li><a href="#" class="nav-item">Biografias</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./../assets/LC_Banner_Dsk_BDMN.png" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./../assets/LC_Banner_Dsk_Editoras_ACDN.png" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./../assets/LC_Banner-Dsk_M1DM.png" alt="Terceiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./../assets/LC_Banner_Dsk_Editora-Todo-Livro.png"
+                        alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+        <h2>Os produtos mais vendidos</h2>
+        
+        <div class="prtds-vend">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./../assets/ESF.webp" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">O evangelho em filtros</h5>
+                  <p class="card-text">O “Evangelho Sem Filtro” vai desconstruir ideias distorcidas e inspirar você a viver plenamente o propósito. Trechos do Livro: "Alguns tem diluído a mensagem do evangelho no intuito de alcançar mais pessoas, mas do que adianta ter mais pessoas bebendo algo que não tem mais poder pra curar?"</p>
+                  <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./../assets/BMN.webp" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">A biblioteca da meia-noite</h5>
+                  <p class="card-text">A Biblioteca da Meia-Noite traz nos a história de Nora Seed, uma adulta com depressão e pensamentos suicidas. Outrora esteve quase a ser campeã de natação, esteve numa banda e abandonou o possível amor da sua vida. Sente que a sua vida está sem cor e tem vontade de desistir.</p>
+                  <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./../assets/MDSF.webp" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">O Mundo de Sofia</h5>
+                  <p class="card-text"> Às vésperas de seu aniversário de quinze anos, Sofia Amundsen começa a receber bilhetes e cartões-postais bastante estranhos. Os bilhetes são anônimos e perguntam a Sofia quem é ela e de onde vem o mundo.</p>
+                  <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./../assets/IG.webp" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Deus que destrói sonhos</h5>
+                  <p class="card-text">Neste livro, Rodrigo Bibo, do podcast Bibotalk, apresenta o caminho do discipulado, o meio para “sonhar” o que Deus já planejou. Aprenda a enxergar e seguir a vontade soberana de Deus expressa em Sua Palavra, tendo uma vida de serviço dedicada a Cristo.</p>
+                  <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+              </div>
+              </div>
+        </div>
+        <h2>Religião e Espiritualidade</h2>
+        <div class="religiosos">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./../assets/IG.webp" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Deus que destrói sonhos</h5>
+                  <p class="card-text">Neste livro, Rodrigo Bibo, do podcast Bibotalk, apresenta o caminho do discipulado, o meio para “sonhar” o que Deus já planejou. Aprenda a enxergar e seguir a vontade soberana de Deus expressa em Sua Palavra, tendo uma vida de serviço dedicada a Cristo.</p>
+                  <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./../assets/BLS.webp" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Bivlia Sagrada</h5>
+                  <p class="card-text">Seu conteúdo principal gira em torno da vida de Jesus, incluindo Seu nascimento, ministério, ensinos, sofrimento milagroso, morte, ressurreição e ascensão. Contém a historia do cristianismo do primeiro século. Destaca como foram aceitas por judeus e gentios, as boas novas da salvação, por meio de Cristo.</p>
+                  <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./../assets/MOD.webp" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Mate o seu dragão: a batalha pela pureza sexual</h5>
+                  <p class="card-text">. TODO HOMEM, em algum ponto da vida, terá de lidar com um dragão. Não significa que é o fim e muito menos que o monstro é invencível, mas, sim, que cada homem precisará decidir o que fazer a respeito do inimigo. De um jeito ou de outro, escolhas precisam ser feitas..</p>
+                  <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./../assets/IG.webp" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Título do card</h5>
+                  <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                  <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+              </div>
+        </div>
+    </main>
+    <script src="./../js/moblile-navbar.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
